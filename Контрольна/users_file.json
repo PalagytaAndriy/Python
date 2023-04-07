@@ -1,0 +1,21 @@
+{
+    "1": {
+        "login": "b'J\\x8a\\x08\\xf0\\x9d7\\xb77\\x95d\\x908@\\x8b_3'",
+        "password": "b'J\\x8a\\x08\\xf0\\x9d7\\xb77\\x95d\\x908@\\x8b_3'",
+        "first_name": "c",
+        "last_name": "c",
+        "address": "c",
+        "tel": "c",
+        "passed_test": {
+            "section": "Математика ",
+            "exam_name": "test - 1",
+            "user_answer": [
+                "16",
+                "7",
+                "2"
+            ],
+            "grade": 12.0
+        },
+        "pending_tests": ""
+    }
+}

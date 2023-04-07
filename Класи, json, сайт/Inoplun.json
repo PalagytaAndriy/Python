@@ -1,0 +1,182 @@
+[
+    {
+        "id": 6,
+        "name": "Abadango Cluster Princess",
+        "status": "Alive",
+        "species": "Alien",
+        "type": "",
+        "gender": "Female",
+        "origin": {
+            "name": "Abadango",
+            "url": "https://rickandmortyapi.com/api/location/2"
+        },
+        "location": {
+            "name": "Abadango",
+            "url": "https://rickandmortyapi.com/api/location/2"
+        },
+        "image": "https://rickandmortyapi.com/api/character/avatar/6.jpeg",
+        "episode": [
+            "https://rickandmortyapi.com/api/episode/27"
+        ],
+        "url": "https://rickandmortyapi.com/api/character/6",
+        "created": "2017-11-04T19:50:28.250Z"
+    },
+    {
+        "id": 13,
+        "name": "Alien Googah",
+        "status": "unknown",
+        "species": "Alien",
+        "type": "",
+        "gender": "unknown",
+        "origin": {
+            "name": "unknown",
+            "url": ""
+        },
+        "location": {
+            "name": "Earth (Replacement Dimension)",
+            "url": "https://rickandmortyapi.com/api/location/20"
+        },
+        "image": "https://rickandmortyapi.com/api/character/avatar/13.jpeg",
+        "episode": [
+            "https://rickandmortyapi.com/api/episode/31"
+        ],
+        "url": "https://rickandmortyapi.com/api/character/13",
+        "created": "2017-11-04T20:33:30.779Z"
+    },
+    {
+        "id": 14,
+        "name": "Alien Morty",
+        "status": "unknown",
+        "species": "Alien",
+        "type": "",
+        "gender": "Male",
+        "origin": {
+            "name": "unknown",
+            "url": ""
+        },
+        "location": {
+            "name": "Citadel of Ricks",
+            "url": "https://rickandmortyapi.com/api/location/3"
+        },
+        "image": "https://rickandmortyapi.com/api/character/avatar/14.jpeg",
+        "episode": [
+            "https://rickandmortyapi.com/api/episode/10"
+        ],
+        "url": "https://rickandmortyapi.com/api/character/14",
+        "created": "2017-11-04T20:51:31.373Z"
+    },
+    {
+        "id": 15,
+        "name": "Alien Rick",
+        "status": "unknown",
+        "species": "Alien",
+        "type": "",
+        "gender": "Male",
+        "origin": {
+            "name": "unknown",
+            "url": ""
+        },
+        "location": {
+            "name": "Citadel of Ricks",
+            "url": "https://rickandmortyapi.com/api/location/3"
+        },
+        "image": "https://rickandmortyapi.com/api/character/avatar/15.jpeg",
+        "episode": [
+            "https://rickandmortyapi.com/api/episode/10"
+        ],
+        "url": "https://rickandmortyapi.com/api/character/15",
+        "created": "2017-11-04T20:56:13.215Z"
+    },
+    {
+        "id": 16,
+        "name": "Amish Cyborg",
+        "status": "Dead",
+        "species": "Alien",
+        "type": "Parasite",
+        "gender": "Male",
+        "origin": {
+            "name": "unknown",
+            "url": ""
+        },
+        "location": {
+            "name": "Earth (Replacement Dimension)",
+            "url": "https://rickandmortyapi.com/api/location/20"
+        },
+        "image": "https://rickandmortyapi.com/api/character/avatar/16.jpeg",
+        "episode": [
+            "https://rickandmortyapi.com/api/episode/15"
+        ],
+        "url": "https://rickandmortyapi.com/api/character/16",
+        "created": "2017-11-04T21:12:45.235Z"
+    },
+    {
+        "id": 23,
+        "name": "Arcade Alien",
+        "status": "unknown",
+        "species": "Alien",
+        "type": "",
+        "gender": "Male",
+        "origin": {
+            "name": "unknown",
+            "url": ""
+        },
+        "location": {
+            "name": "Immortality Field Resort",
+            "url": "https://rickandmortyapi.com/api/location/7"
+        },
+        "image": "https://rickandmortyapi.com/api/character/avatar/23.jpeg",
+        "episode": [
+            "https://rickandmortyapi.com/api/episode/13",
+            "https://rickandmortyapi.com/api/episode/19",
+            "https://rickandmortyapi.com/api/episode/21",
+            "https://rickandmortyapi.com/api/episode/25",
+            "https://rickandmortyapi.com/api/episode/26"
+        ],
+        "url": "https://rickandmortyapi.com/api/character/23",
+        "created": "2017-11-05T08:43:05.095Z"
+    },
+    {
+        "id": 24,
+        "name": "Armagheadon",
+        "status": "Alive",
+        "species": "Alien",
+        "type": "Cromulon",
+        "gender": "Male",
+        "origin": {
+            "name": "Signus 5 Expanse",
+            "url": "https://rickandmortyapi.com/api/location/22"
+        },
+        "location": {
+            "name": "Signus 5 Expanse",
+            "url": "https://rickandmortyapi.com/api/location/22"
+        },
+        "image": "https://rickandmortyapi.com/api/character/avatar/24.jpeg",
+        "episode": [
+            "https://rickandmortyapi.com/api/episode/16"
+        ],
+        "url": "https://rickandmortyapi.com/api/character/24",
+        "created": "2017-11-05T08:48:30.776Z"
+    },
+    {
+        "id": 26,
+        "name": "Arthricia",
+        "status": "Alive",
+        "species": "Alien",
+        "type": "Cat-Person",
+        "gender": "Female",
+        "origin": {
+            "name": "Purge Planet",
+            "url": "https://rickandmortyapi.com/api/location/9"
+        },
+        "location": {
+            "name": "Purge Planet",
+            "url": "https://rickandmortyapi.com/api/location/9"
+        },
+        "image": "https://rickandmortyapi.com/api/character/avatar/26.jpeg",
+        "episode": [
+            "https://rickandmortyapi.com/api/episode/20"
+        ],
+        "url": "https://rickandmortyapi.com/api/character/26",
+        "created": "2017-11-05T08:56:46.165Z"
+    }
+]

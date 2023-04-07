@@ -1,0 +1,73 @@
+
+Працівник : 2
+	 Firs Name : d
+	 Last Name : d
+	 Age : d
+	 Tel : d
+	 Email : d
+	 Post : d
+	 Number cabinet : d
+	 Skype : d
+Працівник : 2
+	 Firs Name : d
+	 Last Name : d
+	 Age : 22
+	 Tel : d
+	 Email : d
+	 Post : d
+	 Number cabinet : d
+	 Skype : d
+Працівник : 2
+	 Firs Name : d
+	 Last Name : d
+	 Age : 22
+	 Tel : d
+	 Email : d
+	 Post : d
+	 Number cabinet : d
+	 Skype : d
+Працівник : 2
+	 Firs Name : d
+	 Last Name : d
+	 Age : 22
+	 Tel : d
+	 Email : d
+	 Post : d
+	 Number cabinet : d
+	 Skype : d
+Працівник : 1
+	 Firs Name : w
+	 Last Name : w
+	 Age : 33
+	 Tel : w
+	 Email : w
+	 Post : w
+	 Number cabinet : w
+	 Skype : w
+Працівник : 1
+	 Firs Name : w
+	 Last Name : w
+	 Age : 33
+	 Tel : w
+	 Email : w
+	 Post : w
+	 Number cabinet : w
+	 Skype : w
+Працівник : 2
+	 Firs Name : d
+	 Last Name : d
+	 Age : 22
+	 Tel : d
+	 Email : d
+	 Post : d
+	 Number cabinet : d
+	 Skype : d
+Працівник : 1
+	 Firs Name : w
+	 Last Name : w
+	 Age : 33
+	 Tel : w
+	 Email : w
+	 Post : w
+	 Number cabinet : w
+	 Skype : w

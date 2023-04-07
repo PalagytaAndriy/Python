@@ -1,0 +1,30 @@
+{
+    "1": {
+        "login": "w",
+        "password": "11"
+    },
+    "2": {
+        "login": "a",
+        "password": "22"
+    },
+    "3": {
+        "login": "ss",
+        "password": "33"
+    },
+    "4": {
+        "login": "q",
+        "password": "2"
+    },
+    "5": {
+        "login": "dd",
+        "password": "77"
+    },
+    "6": {
+        "login": "ff",
+        "password": "999"
+    },
+    "7": {
+        "login": "ee",
+        "password": "55"
+    }
+}

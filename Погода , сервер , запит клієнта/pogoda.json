@@ -1,0 +1,90 @@
+[
+    {
+        "coord": {
+            "lon": 26.9965,
+            "lat": 49.4216
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 0.24,
+            "feels_like": -4.89,
+            "temp_min": 0.24,
+            "temp_max": 0.24,
+            "pressure": 1009,
+            "humidity": 88,
+            "sea_level": 1009,
+            "grnd_level": 974
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 5.5,
+            "deg": 269,
+            "gust": 12.42
+        },
+        "clouds": {
+            "all": 92
+        },
+        "dt": 1675273916,
+        "sys": {
+            "country": "UA",
+            "sunrise": 1675230273,
+            "sunset": 1675263983
+        },
+        "timezone": 7200,
+        "id": 706369,
+        "name": "Khmelnytskyi",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 30.7326,
+            "lat": 46.4775
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 0.52,
+            "feels_like": -3.61,
+            "temp_min": 0.52,
+            "temp_max": 0.52,
+            "pressure": 1013,
+            "humidity": 90,
+            "sea_level": 1013,
+            "grnd_level": 1006
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.95,
+            "deg": 268,
+            "gust": 7.87
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1675273516,
+        "sys": {
+            "country": "UA",
+            "sunrise": 1675228881,
+            "sunset": 1675263583
+        },
+        "timezone": 7200,
+        "id": 698740,
+        "name": "Odesa",
+        "cod": 200
+    }
+]
