@@ -1,0 +1,130 @@
+{% macro fact(context) %}
+    <h1 class="py-2">{{ context.title| upper }}</h1>
+        {% for item in context.content %}
+            <div class="row ">
+                <div class="col d-flex align-items-center">
+                    <p class="m-0 p-3 fs-5">{{ item[0]|title }}</p>
+                </div>
+            </div>
+
+        {% endfor %}
+
+{% endmacro %}
+
+{% macro news(context) %}
+        <h1 class="py-2">{{ context.title| upper }}</h1>
+        <div class="row">
+            {% for item in context.content %}
+                <div class="col-12 d-flex align-items-center">
+                    <p class="m-0 p-3 fs-4">{{ item }}</p>
+                </div>
+
+            {% endfor %}
+        </div>
+{% endmacro %}
+
+{% macro contacts(context) %}
+        <h1 class="py-2">{{ context.title| upper }}</h1>
+    <div class="row row-cols-2">
+        {% for item in context.content %}
+            <div class="col d-flex align-items-center">
+                <p class="m-0 p-3 fs-4">{{ item[0]|title }}</p>
+            </div>
+            <div class="col d-flex align-items-center">
+                 <p class="m-0 p-3 fs-5">Tel: {{ item[1] }}</p>
+            </div>
+
+        {% endfor %}
+    </div>
+{% endmacro %}
+
+{% macro management(context) %}
+        <h1 class="py-2">{{ context.title| upper }}</h1>
+    <div class="row row-cols-2">
+        {% for item in context.content.items() %}
+            <div class="col border d-flex align-items-center">
+                <h5>{{ item[0]|title }}:</h5>
+            </div>
+            <div class="col border d-flex align-items-center justify-content-center">
+                {% if 'https://' in item[1] %}
+                    <img class="p-3" src="{{ item[1] }}" alt="{{ item[0] }}">
+                {% else %}
+                    <p class="m-0 p-3 fs-3">{{ item[1] }}</p>
+                {% endif %}
+
+            </div>
+
+        {% endfor %}
+    </div>
+{% endmacro %}
+
+{% macro history(context) %}
+        <h1 class="py-2">{{ context.title| upper }}</h1>
+    <div class="row">
+        <div class="col">
+             <p>{{ context.content }}</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6 d-flex justify-content-center">
+            <div class="card " style="width: 18rem;">
+                  <img class="card-img-top" style="height: 10rem;"
+                       src="https://vsim.ua/img/cache/news_new_m/news/0008/29/c947e4753fb95899728c65b133ac9f26398762db.jpeg?hash=2017-11-15-22-34-42" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Фото Хмельницини</h5>
+                      <div class="d-flex justify-content-center">
+                           <a style="width: 100%" href="history/photo" class="btn btn-outline-dark ">Перейти</a>
+                      </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-6 d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" style="height: 10rem;"
+                       src="https://upload.wikimedia.org/wikipedia/commons/e/e3/%D0%94%D1%8F%D0%B4%D1%8F_%D0%96%D0%BE%D1%80%D0%B0.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Люди хмельничини</h5>
+                      <div class="d-flex justify-content-center">
+                          <a style="width: 100%" href="history/people" class="btn btn-outline-dark ">Перейти</a>
+                      </div>
+
+                    </div>
+            </div>
+        </div>
+    </div>
+
+{% endmacro %}
+
+{% macro people(context) %}
+
+        <h1 class="py-2">{{ context.title| upper }}</h1>
+        <div class="row row-auto justify-content-md-center">
+            {%  for item in context.content %}
+            <div class="card m-3" style="width: 20rem;">
+            <div class="d-flex justify-content-center p-2">
+                 <img class="card-img-top" style="width: 12rem;" src="{{ item['photo'] }}">
+            </div>
+
+              <div class="card-body">
+                  <p class="card-text">{{ item['name'] }}</p>
+                <p class="card-text">{{ item['description'] }}</p>
+              </div>
+            </div>
+        {% endfor %}
+        </div>
+
+{% endmacro %}
+
+{% macro photo(context) %}
+        <h1 class="py-2">{{ context.title| upper }}</h1>
+        <div class="row justify-content-md-center">
+            {% for photo in context.content %}
+{#                col-md-3 col-sm-4 col-xs-6 #}
+                <div class="col-auto col-md-3 col-sm-4 col-xs-6">
+                     <img class="img-fluid img-thumbnail" src="{{ photo }}">
+                </div>
+            {% endfor %}
+        </div>
+
+{% endmacro %}

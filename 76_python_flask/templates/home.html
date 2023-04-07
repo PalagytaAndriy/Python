@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Python_flask</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  </head>
+  <body class="d-flex justify-content-center mt-5 bg-warning">
+    <form  method="POST" action="/poshyk">
+      <label class="form-label">Число 1 : </label>
+      <input type="text" name="n1"><br>
+      <label class="form-label">Число 2 : </label>
+      <input type="text" name="n2"><br>
+      <label class="form-label">Число 3 :</label>
+      <input type="text" name="n3"><br>
+      <h2 class="mt-5">Що обчислити?</h2><br>
+      <input class="mt-5" type="radio" name="operation" value="min" checked>Мінімум<br>
+      <input class="mt-2" type="radio" name="operation" value="max">Максимум<br>
+      <input class="mt-2" type="radio" name="operation" value="avg">Середнє арифметичне<br>
+      <input class="btn btn-primary mt-3" type="submit" value="Обчислити">
+      <h1 class="mt-5">Відповідь = {{ result }}</h1>
+    </form>
+  </body>
+</html>
